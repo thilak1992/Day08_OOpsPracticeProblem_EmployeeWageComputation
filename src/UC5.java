@@ -18,9 +18,9 @@ public class UC5 {
         return empCheck;
     }
 
-    /*
-     * calculating employee work hours
-     */
+
+     //calculating employee work hours
+
     public static int empSalary(int empCheck) {
         int empWrkHrs;
         switch (empCheck) {
@@ -50,4 +50,5 @@ public class UC5 {
         int totalEmpSalary = UC5.totalEmpSalary();
         System.out.println("Total Employee Salary: " + totalEmpSalary);
     }
+
 }
